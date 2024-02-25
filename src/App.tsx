@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import 'tailwindcss/tailwind.css';
 
 function App() {
   const [phoneNumber, setPhoneNumber] = useState('');
